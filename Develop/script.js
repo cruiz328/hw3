@@ -7,10 +7,10 @@ function generatePassword() {
   if (parseInt(length) < 8 || parseInt(length) > 128) {
     alert('invalid');
   } else {
-    var addUppercase = window.confirm("Do you want uppercase? Yes or No?");
-   // var addLowercase = window.confirm("Do you want lowercase? Yes or No?"); //
+    var addUppercase = window.confirm("Do you want uppercase? Yes or No?")
+    var addLowercase = window.confirm("Do you want lowercase? Yes or No?")
 
-}
+}}
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -25,4 +25,4 @@ function writePassword() {
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword):
+generateBtn.addEventListener("click", writePassword);
