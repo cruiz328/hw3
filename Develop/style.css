@@ -92,6 +92,12 @@ button[disabled] {
   cursor: default;
   background: #c0c7cf;
 }
+.btn:hover{
+  cursor: pointer;
+  background-color: #ff6961;
+  color: black;
+  box-shadow:  0 0 5px #b11226, 0 0 10px #b11226, 0 0 15px #b22336;
+  font-weight: bold;
 
 .float-right {
   float: right;
